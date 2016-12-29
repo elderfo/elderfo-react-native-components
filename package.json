@@ -37,12 +37,16 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "ghooks": "^2.0.0",
     "react": "^15.4.1",
     "react-native": "^0.39.2"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghooks":{
+      "pre-commit":"yarn run test"
     }
   }
 }
