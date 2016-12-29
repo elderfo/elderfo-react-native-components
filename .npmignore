@@ -1,0 +1,12 @@
+__tests__/
+.vscode/
+android/
+ios/
+
+storybook/
+.babelrc
+.flowconfig
+.gitattributes
+.watchmanconfig
+index.android.js
+index.ios.js
