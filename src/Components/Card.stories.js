@@ -2,8 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 import { storiesOf, action, linkTo } from '@kadira/react-native-storybook';
 
-import Card from './Card';
-import CenterView from './CenterView';
+import {Card, CenterView} from '../';
 
 storiesOf('Card', module)
   .addDecorator(getStory => (

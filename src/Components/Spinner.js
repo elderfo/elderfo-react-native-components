@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { ActivityIndicator, StyleSheet } from 'react-native';
-import defaultStyles from '../../styles';
+
 
 const Spinner = ({style = {}, size = 'large', color = '#124081'}) => {
   const styles = StyleSheet.create({

@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 import { storiesOf, action, linkTo } from '@kadira/react-native-storybook';
 
-import { H1, H2, CenterView } from './';
+import { H1, H2, CenterView } from '../';
 
 storiesOf('Typeography', module)
   .addDecorator(getStory => (

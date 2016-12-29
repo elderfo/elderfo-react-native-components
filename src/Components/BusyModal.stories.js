@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 import { storiesOf, action, linkTo,  } from '@kadira/react-native-storybook';
 
-import { BusyModal, CenterView, Platform } from './';
+import { BusyModal, CenterView, Platform } from '../';
 
 storiesOf('BusyModal', module)
   .addDecorator(getStory => (

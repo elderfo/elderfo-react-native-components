@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 import { storiesOf, action, linkTo } from '@kadira/react-native-storybook';
 
-import { Header } from './';
+import { Header } from '../';
 
 storiesOf('Header', module)
   .add('with platform default', () => (
