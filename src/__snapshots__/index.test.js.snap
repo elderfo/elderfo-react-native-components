@@ -1,0 +1,1876 @@
+exports[`Storyshots BusyModal closed 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+  </Text>
+  <Modal
+    animationType="fade"
+    onRequestClose={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+    transparent={true}
+    visible={false}>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 20,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderRadius": 10,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail" />
+        <ActivityIndicator
+          animating={true}
+          color="#124081"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`Storyshots BusyModal open 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+  </Text>
+  <Modal
+    animationType="fade"
+    onRequestClose={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+    transparent={true}
+    visible={true}>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 20,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderRadius": 10,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail" />
+        <ActivityIndicator
+          animating={true}
+          color="#124081"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`Storyshots BusyModal open with message 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+  </Text>
+  <Modal
+    animationType="fade"
+    onRequestClose={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+    transparent={true}
+    visible={true}>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 20,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderRadius": 10,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Leave me alone, I\'m busy
+        </Text>
+        <ActivityIndicator
+          animating={true}
+          color="#124081"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`Storyshots BusyModal open with spinner color 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+  </Text>
+  <Modal
+    animationType="fade"
+    onRequestClose={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+    transparent={true}
+    visible={true}>
+    <View
+      style={
+        Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.5)",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 20,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderRadius": 10,
+          }
+        }>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail" />
+        <ActivityIndicator
+          animating={true}
+          color="red"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </Modal>
+</View>
+`;
+
+exports[`Storyshots Card with centered content 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 0,
+        "borderColor": "#ddd",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "elevation": 2,
+        "flexWrap": "wrap",
+        "marginVertical": 5,
+        "padding": 10,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card with click handler 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+        },
+        undefined,
+      ]
+    }
+    testID={undefined}>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0,
+          "borderColor": "#ddd",
+          "borderRadius": 2,
+          "borderWidth": 1,
+          "elevation": 2,
+          "flexWrap": "wrap",
+          "marginVertical": 5,
+          "padding": 10,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }>
+      <View
+        style={Object {}}>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Click me
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card with padding 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 0,
+        "borderColor": "#ddd",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "elevation": 2,
+        "flexWrap": "wrap",
+        "marginVertical": 5,
+        "padding": 10,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View
+      style={Object {}}>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        With Padding
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card with text 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 0,
+        "borderColor": "#ddd",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "elevation": 2,
+        "flexWrap": "wrap",
+        "marginVertical": 5,
+        "padding": 10,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View
+      style={Object {}}>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        With Text
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Card without padding 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderBottomWidth": 0,
+        "borderColor": "#ddd",
+        "borderRadius": 2,
+        "borderWidth": 1,
+        "elevation": 2,
+        "flexWrap": "wrap",
+        "marginVertical": 5,
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View
+      style={Object {}}>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Without Padding
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with a backgroundColor/foregroundColor 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "red",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "red",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "silver",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 16,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "silver",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "red",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "silver",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with custom search placeholder 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 72,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with fixed search mode 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 16,
+      }
+    }>
+    <TextInput
+      autoFocus={true}
+      onChangeText={[Function]}
+      placeholder="Search"
+      style={
+        Object {
+          "color": "black",
+          "flex": 1,
+          "fontSize": 16,
+        }
+      }
+      value="" />
+  </View>
+  <View />
+</View>
+`;
+
+exports[`Storyshots Header with left icon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 16,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`Storyshots Header with left/right icons 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 16,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with platform default 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 16,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with platform default search 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 16,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with right icon 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 72,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with search mode 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 72,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with search right button 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 16,
+      }
+    }>
+    <TextInput
+      autoFocus={true}
+      onChangeText={[Function]}
+      placeholder="Search"
+      style={
+        Object {
+          "color": "black",
+          "flex": 1,
+          "fontSize": 16,
+        }
+      }
+      value="" />
+  </View>
+  <View>
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      hitSlop={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "#F8F8F8",
+          "height": 48,
+          "marginHorizontal": 4,
+          "opacity": 1,
+          "padding": 12,
+          "width": 48,
+        }
+      }
+      testID={undefined}>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "alignSelf": "center",
+              "color": "black",
+              "fontSize": 24,
+            },
+            Object {
+              "fontFamily": "Ionicons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+          ]
+        }>
+        
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Header with title only 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F8F8F8",
+      "elevation": 3,
+      "flexDirection": "row",
+      "height": 64,
+      "paddingTop": 15,
+      "position": "relative",
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 1.5,
+    }
+  }>
+  <View />
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginLeft": 72,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "black",
+          "fontSize": 16,
+        }
+      }>
+      Title
+    </Text>
+  </View>
+  <View />
+</View>
+`;
+
+exports[`Storyshots Typeography with H1 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 20,
+      }
+    }>
+    I am legend
+  </Text>
+</View>
+`;
+
+exports[`Storyshots Typeography with H2 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontSize": 18,
+      }
+    }>
+    I am legend
+  </Text>
+</View>
+`;
