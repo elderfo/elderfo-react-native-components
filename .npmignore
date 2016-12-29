@@ -3,6 +3,9 @@ __tests__/
 android/
 ios/
 
+**/*.test.js
+**/*.stories.js
+
 storybook/
 .babelrc
 .flowconfig

@@ -1,15 +1,11 @@
 {
   "name": "elderfo-react-native-components",
   "version": "0.0.1",
-  "main": "./src/index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
     "storybook": "storybook start -p 7007"
-  },
-  "dependencies": {
-    "react": "15.4.1",
-    "react-native": "0.39.2"
   },
   "devDependencies": {
     "@kadira/react-native-storybook": "^2.0.0",
@@ -19,6 +15,10 @@
     "react-native-vector-icons": "^3.0.0",
     "react-test-renderer": "15.4.1",
     "storyshots": "^3.1.1"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.38.0",
+    "react": ">=15.4.0"
   },
   "jest": {
     "preset": "react-native"
