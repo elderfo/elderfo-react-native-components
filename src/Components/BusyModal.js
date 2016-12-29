@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   }
 });
 
-const BusyModal = ({message, isOpen, spinnerColor = '#124081'}) => {
+const BusyModal = ({message, isOpen, spinnerColor}) => {
   return (
     <Modal visible={isOpen}
       style={styles.modal}
