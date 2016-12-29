@@ -10,6 +10,7 @@ import Platform from './Components/Platform';
 import Header from './Components/Header';
 import SpinnerCard from './Components/SpinnerCard';
 import SimpleTextCard from './Components/SimpleTextCard';
+import CenterView from './Components/CenterView';
 
 export {
   H1,
@@ -24,4 +25,5 @@ export {
   Header,
   SpinnerCard,
   SimpleTextCard,
+  CenterView,
 };
