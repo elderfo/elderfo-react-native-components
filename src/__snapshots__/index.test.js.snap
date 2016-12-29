@@ -580,6 +580,46 @@ exports[`Storyshots Card without padding 1`] = `
 </View>
 `;
 
+exports[`Storyshots CenterView centers vertically 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 0,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Centered vertically
+  </Text>
+</View>
+`;
+
+exports[`Storyshots CenterView centers vertically and horizontally 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 0,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail">
+    Centered vertically and horizontally
+  </Text>
+</View>
+`;
+
 exports[`Storyshots Header with a backgroundColor/foregroundColor 1`] = `
 <View
   style={

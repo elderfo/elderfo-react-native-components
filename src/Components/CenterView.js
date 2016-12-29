@@ -1,7 +1,7 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 import { View } from 'react-native';
 
-export default function CenterView(props) {
+const  CenterView = (props) => {
 
   const styles = {
     main: {
@@ -18,5 +18,11 @@ export default function CenterView(props) {
       {props.children}
     </View>
   );
+};
+
+CenterView.propTypes = { 
+  horizontalCenter: PropTypes.bool,
+  padding: PropTypes.number
 }
 
+export default CenterView;
