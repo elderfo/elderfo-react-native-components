@@ -36,7 +36,13 @@
   "jest": {
     "preset": "react-native"
   },
-  "czConfig": {
-    "path":"node_modules/cz-conventional-changelog"
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-native": "^0.39.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
