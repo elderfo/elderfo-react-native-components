@@ -2582,6 +2582,165 @@ exports[`Storyshots SpinnerCard default 1`] = `
 </View>
 `;
 
+exports[`Storyshots TextInput default 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": 1,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "position": "relative",
+          }
+        }>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder={undefined}
+          secureTextEntry={false}
+          style={
+            Object {
+              "borderWidth": 0,
+              "color": "#000",
+              "fontSize": 15,
+              "height": 30,
+              "lineHeight": 24,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value="Sample Input" />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots TextInput with placeholder 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": 1,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "position": "relative",
+          }
+        }>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Placeholder"
+          secureTextEntry={false}
+          style={
+            Object {
+              "borderWidth": 0,
+              "color": "#000",
+              "fontSize": 15,
+              "height": 30,
+              "lineHeight": 24,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value="" />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots TextInput with secure input 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": 1,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "position": "relative",
+          }
+        }>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder={undefined}
+          secureTextEntry={true}
+          style={
+            Object {
+              "borderWidth": 0,
+              "color": "#000",
+              "fontSize": 15,
+              "height": 30,
+              "lineHeight": 24,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value="I am secure" />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
 exports[`Storyshots Typeography with H1 1`] = `
 <View
   style={
