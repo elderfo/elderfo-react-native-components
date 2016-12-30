@@ -1,11 +1,14 @@
 import React, { Component, PropTypes } from 'react';
 import { StyleSheet, Text } from 'react-native';
 import Card from './Card';
+import CenterView from './CenterView';
 
 const SimpleTextCard = ({text}) => {
   return (
-    <Card center={true}>
-      <Text>{text}</Text>
+    <Card>
+      <CenterView horizontalCenter={true}>
+        <Text>{text}</Text>
+      </CenterView>
     </Card>
   );
 };
