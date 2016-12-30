@@ -7,7 +7,7 @@ import { Container, Spinner, CenterView } from '../';
 storiesOf('Spinner', module)
     .addDecorator(story => (
         <Container>
-            <CenterView horizontalCenter={true}>
+            <CenterView method='both' fillParent={true}>
                 {story()}
             </CenterView>
         </Container>

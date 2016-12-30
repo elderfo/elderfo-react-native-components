@@ -33,12 +33,6 @@ exports[`Storyshots BusyModal closed 1`] = `
   <Modal
     animationType="fade"
     onRequestClose={[Function]}
-    style={
-      Object {
-        "alignItems": "center",
-        "justifyContent": "center",
-      }
-    }
     transparent={true}
     visible={false}>
     <View
@@ -58,22 +52,25 @@ exports[`Storyshots BusyModal closed 1`] = `
             "borderRadius": 10,
           }
         }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail" />
-        <ActivityIndicator
-          animating={true}
-          color="#999999"
-          hidesWhenStopped={true}
-          size="large"
+        <View
           style={
             Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
+              "alignItems": "center",
             }
-          } />
+          }>
+          <ActivityIndicator
+            animating={true}
+            color="#999999"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "height": 80,
+                "margin": 5,
+                "width": 80,
+              }
+            } />
+        </View>
       </View>
     </View>
   </Modal>
@@ -115,12 +112,6 @@ exports[`Storyshots BusyModal open 1`] = `
   <Modal
     animationType="fade"
     onRequestClose={[Function]}
-    style={
-      Object {
-        "alignItems": "center",
-        "justifyContent": "center",
-      }
-    }
     transparent={true}
     visible={true}>
     <View
@@ -140,22 +131,25 @@ exports[`Storyshots BusyModal open 1`] = `
             "borderRadius": 10,
           }
         }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail" />
-        <ActivityIndicator
-          animating={true}
-          color="#999999"
-          hidesWhenStopped={true}
-          size="large"
+        <View
           style={
             Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
+              "alignItems": "center",
             }
-          } />
+          }>
+          <ActivityIndicator
+            animating={true}
+            color="#999999"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "height": 80,
+                "margin": 5,
+                "width": 80,
+              }
+            } />
+        </View>
       </View>
     </View>
   </Modal>
@@ -197,12 +191,6 @@ exports[`Storyshots BusyModal open with message 1`] = `
   <Modal
     animationType="fade"
     onRequestClose={[Function]}
-    style={
-      Object {
-        "alignItems": "center",
-        "justifyContent": "center",
-      }
-    }
     transparent={true}
     visible={true}>
     <View
@@ -222,24 +210,36 @@ exports[`Storyshots BusyModal open with message 1`] = `
             "borderRadius": 10,
           }
         }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail">
-          Leave me alone, I\'m busy
-        </Text>
-        <ActivityIndicator
-          animating={true}
-          color="#999999"
-          hidesWhenStopped={true}
-          size="large"
+        <View
           style={
             Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
+              "alignItems": "center",
             }
-          } />
+          }>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail"
+            style={
+              Object {
+                "paddingTop": 20,
+              }
+            }>
+            Leave me alone, I\'m busy
+          </Text>
+          <ActivityIndicator
+            animating={true}
+            color="#999999"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "height": 80,
+                "margin": 5,
+                "width": 80,
+              }
+            } />
+        </View>
       </View>
     </View>
   </Modal>
@@ -281,12 +281,6 @@ exports[`Storyshots BusyModal open with spinner color 1`] = `
   <Modal
     animationType="fade"
     onRequestClose={[Function]}
-    style={
-      Object {
-        "alignItems": "center",
-        "justifyContent": "center",
-      }
-    }
     transparent={true}
     visible={true}>
     <View
@@ -306,22 +300,25 @@ exports[`Storyshots BusyModal open with spinner color 1`] = `
             "borderRadius": 10,
           }
         }>
-        <Text
-          accessible={true}
-          allowFontScaling={true}
-          ellipsizeMode="tail" />
-        <ActivityIndicator
-          animating={true}
-          color="red"
-          hidesWhenStopped={true}
-          size="large"
+        <View
           style={
             Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
+              "alignItems": "center",
             }
-          } />
+          }>
+          <ActivityIndicator
+            animating={true}
+            color="red"
+            hidesWhenStopped={true}
+            size="large"
+            style={
+              Object {
+                "height": 80,
+                "margin": 5,
+                "width": 80,
+              }
+            } />
+        </View>
       </View>
     </View>
   </Modal>
@@ -332,8 +329,6 @@ exports[`Storyshots Card with centered content 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
       "padding": 10,
@@ -382,8 +377,6 @@ exports[`Storyshots Card with click handler 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
       "padding": 10,
@@ -450,8 +443,6 @@ exports[`Storyshots Card with padding 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
       "padding": 10,
@@ -495,8 +486,6 @@ exports[`Storyshots Card with text 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
       "padding": 10,
@@ -540,8 +529,6 @@ exports[`Storyshots Card without padding 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
       "padding": 10,
@@ -580,43 +567,269 @@ exports[`Storyshots Card without padding 1`] = `
 </View>
 `;
 
-exports[`Storyshots CenterView centers vertically 1`] = `
+exports[`Storyshots CenterView centers horizontally (fillParent) 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
-      "justifyContent": "center",
-      "padding": 0,
+      "paddingTop": 20,
     }
   }>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail">
-    Centered vertically
-  </Text>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered horizontally
+      </Text>
+    </View>
+  </View>
 </View>
 `;
 
-exports[`Storyshots CenterView centers vertically and horizontally 1`] = `
+exports[`Storyshots CenterView centers vertically (fillParent) 1`] = `
 <View
   style={
     Object {
-      "alignItems": "center",
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
-      "justifyContent": "center",
-      "padding": 0,
+      "paddingTop": 20,
     }
   }>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail">
-    Centered vertically and horizontally
-  </Text>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered vertically
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CenterView centers vertically and horizontally (fillParent) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered vertically and horizontally
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CenterView disabled fillParent, horizontal align 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered horizontally
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CenterView disabled fillParent, vertical align (no change) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered vertically
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CenterView disabled fillParent, vertical and horizontal align (take horizontal) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered vertically and horizontally
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CenterView with styles (fillParent) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "red",
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered vertically and horizontally
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots CenterView with styles (non-fillParent) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "red",
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail">
+        Centered vertically and horizontally
+      </Text>
+    </View>
+  </View>
 </View>
 `;
 
@@ -1125,11 +1338,9 @@ exports[`Storyshots ErrorAlert with text (required) 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
       "justifyContent": "center",
-      "padding": 0,
+      "padding": 10,
     }
   }>
   <Text
@@ -2440,10 +2651,7 @@ exports[`Storyshots SimpleTextCard with text (required) 1`] = `
           style={
             Object {
               "alignItems": "center",
-              "backgroundColor": "#F5FCFF",
-              "flex": 1,
               "justifyContent": "center",
-              "padding": 0,
             }
           }>
           <Text
@@ -2478,10 +2686,8 @@ exports[`Storyshots Spinner with default config 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#F5FCFF",
           "flex": 1,
           "justifyContent": "center",
-          "padding": 0,
         }
       }>
       <ActivityIndicator
@@ -2520,10 +2726,8 @@ exports[`Storyshots Spinner with defined color 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#F5FCFF",
           "flex": 1,
           "justifyContent": "center",
-          "padding": 0,
         }
       }>
       <ActivityIndicator
@@ -2562,10 +2766,8 @@ exports[`Storyshots Spinner with large size 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#F5FCFF",
           "flex": 1,
           "justifyContent": "center",
-          "padding": 0,
         }
       }>
       <ActivityIndicator
@@ -2604,10 +2806,8 @@ exports[`Storyshots Spinner with small size 1`] = `
       style={
         Object {
           "alignItems": "center",
-          "backgroundColor": "#F5FCFF",
           "flex": 1,
           "justifyContent": "center",
-          "padding": 0,
         }
       }>
       <ActivityIndicator
@@ -2645,11 +2845,7 @@ exports[`Storyshots SpinnerCard default 1`] = `
     <View
       style={
         Object {
-          "alignItems": "center",
-          "backgroundColor": "#F5FCFF",
-          "flex": 1,
           "justifyContent": "center",
-          "padding": 0,
         }
       }>
       <View
@@ -2679,10 +2875,7 @@ exports[`Storyshots SpinnerCard default 1`] = `
             style={
               Object {
                 "alignItems": "center",
-                "backgroundColor": "#F5FCFF",
-                "flex": 1,
                 "justifyContent": "center",
-                "padding": 0,
               }
             }>
             <ActivityIndicator
@@ -2862,24 +3055,37 @@ exports[`Storyshots Typeography with H1 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
-      "justifyContent": "center",
-      "padding": 10,
+      "paddingTop": 20,
     }
   }>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Object {
-        "fontSize": 20,
+        "flex": 1,
+        "padding": 10,
       }
     }>
-    I am legend
-  </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 20,
+          }
+        }>
+        I am legend
+      </Text>
+    </View>
+  </View>
 </View>
 `;
 
@@ -2887,23 +3093,36 @@ exports[`Storyshots Typeography with H2 1`] = `
 <View
   style={
     Object {
-      "alignItems": undefined,
-      "backgroundColor": "#F5FCFF",
       "flex": 1,
-      "justifyContent": "center",
-      "padding": 10,
+      "paddingTop": 20,
     }
   }>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    ellipsizeMode="tail"
+  <View
     style={
       Object {
-        "fontSize": 18,
+        "flex": 1,
+        "padding": 10,
       }
     }>
-    I am legend
-  </Text>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "fontSize": 18,
+          }
+        }>
+        I am legend
+      </Text>
+    </View>
+  </View>
 </View>
 `;
