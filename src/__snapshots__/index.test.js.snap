@@ -2502,6 +2502,86 @@ exports[`Storyshots Spinner with small size 1`] = `
 </View>
 `;
 
+exports[`Storyshots SpinnerCard default 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0,
+              "borderColor": "#ddd",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "elevation": 2,
+              "flexWrap": "wrap",
+              "marginVertical": 5,
+              "padding": 10,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }>
+          <View
+            style={Object {}}>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#F5FCFF",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "padding": 0,
+                }
+              }>
+              <ActivityIndicator
+                animating={true}
+                color="#999999"
+                hidesWhenStopped={true}
+                size="large"
+                style={
+                  Object {
+                    "height": 80,
+                    "margin": 5,
+                    "width": 80,
+                  }
+                } />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
 exports[`Storyshots Typeography with H1 1`] = `
 <View
   style={
