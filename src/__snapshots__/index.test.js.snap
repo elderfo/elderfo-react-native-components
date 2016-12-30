@@ -620,6 +620,372 @@ exports[`Storyshots CenterView centers vertically and horizontally 1`] = `
 </View>
 `;
 
+exports[`Storyshots Container with a header (scrolls) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8F8",
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 72,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Header
+      </Text>
+    </View>
+    <View />
+  </View>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+        </Text>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Container with style and contentStyle 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "red",
+      "flex": 1,
+      "padding": 25,
+      "paddingTop": 25,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "backgroundColor": "green",
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+        </Text>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Container without a header (scrolls) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Chuck shank fatback brisket leberkas turducken beef salami filet mignon tail pork meatloaf. Kielbasa jowl rump turducken t-bone fatback pork belly swine tri-tip. Chicken corned beef pig andouille cupim leberkas. Ribeye ham pig rump kevin andouille ham hock, chuck bresaola. Burgdoggen kielbasa filet mignon shank. Chicken beef tri-tip biltong. Burgdoggen ham hock venison flank, shank boudin meatball turducken short loin corned beef drumstick cupim bresaola.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Frankfurter boudin flank, salami jowl sirloin chicken ham sausage. Shankle landjaeger doner pork chop shank. Boudin cow pork chop, capicola flank meatloaf spare ribs tri-tip ribeye venison fatback. Alcatra doner ground round chuck porchetta, boudin burgdoggen venison strip steak sirloin ham hock picanha. Ham hock beef sausage pork landjaeger cow porchetta swine andouille pork chop tail fatback meatloaf. Kevin prosciutto picanha, venison porchetta short loin sirloin beef ribs ball tip turkey shoulder flank pig. Shoulder jowl kevin, tail pastrami frankfurter ribeye tenderloin jerky pork belly.
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+           
+        </Text>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail">
+          Pork leberkas beef t-bone meatball, pork loin flank boudin. Corned beef short loin pork loin brisket pork belly kielbasa, ham shank sirloin drumstick. Hamburger bresaola capicola kevin fatback frankfurter pancetta alcatra biltong tenderloin pig ham hock sausage strip steak. T-bone chicken pork belly tri-tip bresaola porchetta shank prosciutto venison meatloaf. Tenderloin salami ball tip frankfurter turkey short loin drumstick t-bone corned beef. Tail chicken pancetta prosciutto. Andouille cow pork chop, turkey ham filet mignon alcatra chuck hamburger corned beef venison.
+        </Text>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
 exports[`Storyshots Header with a backgroundColor/foregroundColor 1`] = `
 <View
   style={
