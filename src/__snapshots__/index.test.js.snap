@@ -620,7 +620,7 @@ exports[`Storyshots CenterView centers vertically and horizontally 1`] = `
 </View>
 `;
 
-exports[`Storyshots Container with a header (scrolls) 1`] = `
+exports[`Storyshots Container with a header 1`] = `
 <View
   style={
     Object {
@@ -670,7 +670,79 @@ exports[`Storyshots Container with a header (scrolls) 1`] = `
     </View>
     <View />
   </View>
-  <ScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail">
+      Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Container with a header and scroll 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8F8",
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 72,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Header
+      </Text>
+    </View>
+    <View />
+  </View>
+  <ScrollView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }>
     <View
       style={
         Object {
@@ -779,7 +851,40 @@ exports[`Storyshots Container with style and contentStyle 1`] = `
       "paddingTop": 25,
     }
   }>
-  <ScrollView>
+  <View
+    style={
+      Object {
+        "backgroundColor": "green",
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail">
+      Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Container with style, contentStyle and scroll 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "red",
+      "flex": 1,
+      "padding": 25,
+      "paddingTop": 25,
+    }
+  }>
+  <ScrollView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }>
     <View
       style={
         Object {
@@ -879,7 +984,7 @@ exports[`Storyshots Container with style and contentStyle 1`] = `
 </View>
 `;
 
-exports[`Storyshots Container without a header (scrolls) 1`] = `
+exports[`Storyshots Container without a header 1`] = `
 <View
   style={
     Object {
@@ -887,7 +992,37 @@ exports[`Storyshots Container without a header (scrolls) 1`] = `
       "paddingTop": 20,
     }
   }>
-  <ScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail">
+      Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Container without a header and scrolls 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView
+    style={
+      Object {
+        "flex": 1,
+      }
+    }>
     <View
       style={
         Object {
@@ -2271,12 +2406,250 @@ exports[`Storyshots SimpleTextCard with text (required) 1`] = `
       "paddingTop": 20,
     }
   }>
-  <ScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
     <View
       style={
         Object {
-          "flex": 1,
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0,
+          "borderColor": "#ddd",
+          "borderRadius": 2,
+          "borderWidth": 1,
+          "elevation": 2,
+          "flexWrap": "wrap",
+          "marginVertical": 5,
           "padding": 10,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }>
+      <View
+        style={Object {}}>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#F5FCFF",
+              "flex": 1,
+              "justifyContent": "center",
+              "padding": 0,
+            }
+          }>
+          <Text
+            accessible={true}
+            allowFontScaling={true}
+            ellipsizeMode="tail">
+            I am simple and texty
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Spinner with default config 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 0,
+        }
+      }>
+      <ActivityIndicator
+        animating={true}
+        color="#999999"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "height": 80,
+            "margin": 5,
+            "width": 80,
+          }
+        } />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Spinner with defined color 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 0,
+        }
+      }>
+      <ActivityIndicator
+        animating={true}
+        color="red"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "height": 80,
+            "margin": 5,
+            "width": 80,
+          }
+        } />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Spinner with large size 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 0,
+        }
+      }>
+      <ActivityIndicator
+        animating={true}
+        color="#999999"
+        hidesWhenStopped={true}
+        size="large"
+        style={
+          Object {
+            "height": 80,
+            "margin": 5,
+            "width": 80,
+          }
+        } />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots Spinner with small size 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 0,
+        }
+      }>
+      <ActivityIndicator
+        animating={true}
+        color="#999999"
+        hidesWhenStopped={true}
+        size="small"
+        style={
+          Object {
+            "height": 80,
+            "margin": 5,
+            "width": 80,
+          }
+        } />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots SpinnerCard default 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F5FCFF",
+          "flex": 1,
+          "justifyContent": "center",
+          "padding": 0,
         }
       }>
       <View
@@ -2312,273 +2685,23 @@ exports[`Storyshots SimpleTextCard with text (required) 1`] = `
                 "padding": 0,
               }
             }>
-            <Text
-              accessible={true}
-              allowFontScaling={true}
-              ellipsizeMode="tail">
-              I am simple and texty
-            </Text>
-          </View>
-        </View>
-      </View>
-    </View>
-  </ScrollView>
-</View>
-`;
-
-exports[`Storyshots Spinner with default config 1`] = `
-<View
-  style={
-    Object {
-      "flex": 1,
-      "paddingTop": 20,
-    }
-  }>
-  <ScrollView>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "padding": 10,
-        }
-      }>
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#F5FCFF",
-            "flex": 1,
-            "justifyContent": "center",
-            "padding": 0,
-          }
-        }>
-        <ActivityIndicator
-          animating={true}
-          color="#999999"
-          hidesWhenStopped={true}
-          size="large"
-          style={
-            Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
-            }
-          } />
-      </View>
-    </View>
-  </ScrollView>
-</View>
-`;
-
-exports[`Storyshots Spinner with defined color 1`] = `
-<View
-  style={
-    Object {
-      "flex": 1,
-      "paddingTop": 20,
-    }
-  }>
-  <ScrollView>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "padding": 10,
-        }
-      }>
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#F5FCFF",
-            "flex": 1,
-            "justifyContent": "center",
-            "padding": 0,
-          }
-        }>
-        <ActivityIndicator
-          animating={true}
-          color="red"
-          hidesWhenStopped={true}
-          size="large"
-          style={
-            Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
-            }
-          } />
-      </View>
-    </View>
-  </ScrollView>
-</View>
-`;
-
-exports[`Storyshots Spinner with large size 1`] = `
-<View
-  style={
-    Object {
-      "flex": 1,
-      "paddingTop": 20,
-    }
-  }>
-  <ScrollView>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "padding": 10,
-        }
-      }>
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#F5FCFF",
-            "flex": 1,
-            "justifyContent": "center",
-            "padding": 0,
-          }
-        }>
-        <ActivityIndicator
-          animating={true}
-          color="#999999"
-          hidesWhenStopped={true}
-          size="large"
-          style={
-            Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
-            }
-          } />
-      </View>
-    </View>
-  </ScrollView>
-</View>
-`;
-
-exports[`Storyshots Spinner with small size 1`] = `
-<View
-  style={
-    Object {
-      "flex": 1,
-      "paddingTop": 20,
-    }
-  }>
-  <ScrollView>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "padding": 10,
-        }
-      }>
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#F5FCFF",
-            "flex": 1,
-            "justifyContent": "center",
-            "padding": 0,
-          }
-        }>
-        <ActivityIndicator
-          animating={true}
-          color="#999999"
-          hidesWhenStopped={true}
-          size="small"
-          style={
-            Object {
-              "height": 80,
-              "margin": 5,
-              "width": 80,
-            }
-          } />
-      </View>
-    </View>
-  </ScrollView>
-</View>
-`;
-
-exports[`Storyshots SpinnerCard default 1`] = `
-<View
-  style={
-    Object {
-      "flex": 1,
-      "paddingTop": 20,
-    }
-  }>
-  <ScrollView>
-    <View
-      style={
-        Object {
-          "flex": 1,
-          "padding": 10,
-        }
-      }>
-      <View
-        style={
-          Object {
-            "alignItems": "center",
-            "backgroundColor": "#F5FCFF",
-            "flex": 1,
-            "justifyContent": "center",
-            "padding": 0,
-          }
-        }>
-        <View
-          style={
-            Object {
-              "backgroundColor": "#fff",
-              "borderBottomWidth": 0,
-              "borderColor": "#ddd",
-              "borderRadius": 2,
-              "borderWidth": 1,
-              "elevation": 2,
-              "flexWrap": "wrap",
-              "marginVertical": 5,
-              "padding": 10,
-              "shadowColor": "#000",
-              "shadowOffset": Object {
-                "height": 2,
-                "width": 0,
-              },
-              "shadowOpacity": 0.1,
-              "shadowRadius": 1.5,
-            }
-          }>
-          <View
-            style={Object {}}>
-            <View
+            <ActivityIndicator
+              animating={true}
+              color="#999999"
+              hidesWhenStopped={true}
+              size="large"
               style={
                 Object {
-                  "alignItems": "center",
-                  "backgroundColor": "#F5FCFF",
-                  "flex": 1,
-                  "justifyContent": "center",
-                  "padding": 0,
+                  "height": 80,
+                  "margin": 5,
+                  "width": 80,
                 }
-              }>
-              <ActivityIndicator
-                animating={true}
-                color="#999999"
-                hidesWhenStopped={true}
-                size="large"
-                style={
-                  Object {
-                    "height": 80,
-                    "margin": 5,
-                    "width": 80,
-                  }
-                } />
-            </View>
+              } />
           </View>
         </View>
       </View>
     </View>
-  </ScrollView>
+  </View>
 </View>
 `;
 
@@ -2590,48 +2713,46 @@ exports[`Storyshots TextInput default 1`] = `
       "paddingTop": 20,
     }
   }>
-  <ScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
     <View
       style={
         Object {
-          "flex": 1,
-          "padding": 10,
+          "backgroundColor": "transparent",
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+          "marginBottom": 5,
+          "marginTop": 5,
+          "position": "relative",
         }
       }>
-      <View
+      <TextInput
+        onChangeText={[Function]}
+        placeholder={undefined}
+        secureTextEntry={false}
         style={
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#D9D5DC",
-            "borderLeftWidth": 0,
-            "borderRightWidth": 0,
-            "borderTopWidth": 0,
-            "borderWidth": 1,
-            "marginBottom": 5,
-            "marginTop": 5,
-            "position": "relative",
+            "borderWidth": 0,
+            "color": "#000",
+            "fontSize": 15,
+            "height": 30,
+            "lineHeight": 24,
+            "paddingLeft": 5,
+            "paddingRight": 5,
           }
-        }>
-        <TextInput
-          onChangeText={[Function]}
-          placeholder={undefined}
-          secureTextEntry={false}
-          style={
-            Object {
-              "borderWidth": 0,
-              "color": "#000",
-              "fontSize": 15,
-              "height": 30,
-              "lineHeight": 24,
-              "paddingLeft": 5,
-              "paddingRight": 5,
-            }
-          }
-          underlineColorAndroid="rgba(0,0,0,0)"
-          value="Sample Input" />
-      </View>
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value="Sample Input" />
     </View>
-  </ScrollView>
+  </View>
 </View>
 `;
 
@@ -2643,48 +2764,46 @@ exports[`Storyshots TextInput with placeholder 1`] = `
       "paddingTop": 20,
     }
   }>
-  <ScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
     <View
       style={
         Object {
-          "flex": 1,
-          "padding": 10,
+          "backgroundColor": "transparent",
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+          "marginBottom": 5,
+          "marginTop": 5,
+          "position": "relative",
         }
       }>
-      <View
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Placeholder"
+        secureTextEntry={false}
         style={
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#D9D5DC",
-            "borderLeftWidth": 0,
-            "borderRightWidth": 0,
-            "borderTopWidth": 0,
-            "borderWidth": 1,
-            "marginBottom": 5,
-            "marginTop": 5,
-            "position": "relative",
+            "borderWidth": 0,
+            "color": "#000",
+            "fontSize": 15,
+            "height": 30,
+            "lineHeight": 24,
+            "paddingLeft": 5,
+            "paddingRight": 5,
           }
-        }>
-        <TextInput
-          onChangeText={[Function]}
-          placeholder="Placeholder"
-          secureTextEntry={false}
-          style={
-            Object {
-              "borderWidth": 0,
-              "color": "#000",
-              "fontSize": 15,
-              "height": 30,
-              "lineHeight": 24,
-              "paddingLeft": 5,
-              "paddingRight": 5,
-            }
-          }
-          underlineColorAndroid="rgba(0,0,0,0)"
-          value="" />
-      </View>
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value="" />
     </View>
-  </ScrollView>
+  </View>
 </View>
 `;
 
@@ -2696,48 +2815,46 @@ exports[`Storyshots TextInput with secure input 1`] = `
       "paddingTop": 20,
     }
   }>
-  <ScrollView>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "padding": 10,
+      }
+    }>
     <View
       style={
         Object {
-          "flex": 1,
-          "padding": 10,
+          "backgroundColor": "transparent",
+          "borderColor": "#D9D5DC",
+          "borderLeftWidth": 0,
+          "borderRightWidth": 0,
+          "borderTopWidth": 0,
+          "borderWidth": 1,
+          "marginBottom": 5,
+          "marginTop": 5,
+          "position": "relative",
         }
       }>
-      <View
+      <TextInput
+        onChangeText={[Function]}
+        placeholder={undefined}
+        secureTextEntry={true}
         style={
           Object {
-            "backgroundColor": "transparent",
-            "borderColor": "#D9D5DC",
-            "borderLeftWidth": 0,
-            "borderRightWidth": 0,
-            "borderTopWidth": 0,
-            "borderWidth": 1,
-            "marginBottom": 5,
-            "marginTop": 5,
-            "position": "relative",
+            "borderWidth": 0,
+            "color": "#000",
+            "fontSize": 15,
+            "height": 30,
+            "lineHeight": 24,
+            "paddingLeft": 5,
+            "paddingRight": 5,
           }
-        }>
-        <TextInput
-          onChangeText={[Function]}
-          placeholder={undefined}
-          secureTextEntry={true}
-          style={
-            Object {
-              "borderWidth": 0,
-              "color": "#000",
-              "fontSize": 15,
-              "height": 30,
-              "lineHeight": 24,
-              "paddingLeft": 5,
-              "paddingRight": 5,
-            }
-          }
-          underlineColorAndroid="rgba(0,0,0,0)"
-          value="I am secure" />
-      </View>
+        }
+        underlineColorAndroid="rgba(0,0,0,0)"
+        value="I am secure" />
     </View>
-  </ScrollView>
+  </View>
 </View>
 `;
 
