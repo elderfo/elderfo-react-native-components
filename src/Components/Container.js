@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import Header from './Header';
 import Platform from './Platform';
-import computeStyle from '../Util/computeStyle';
+import { computeStyle } from '../Util';
 
 const headerTypes = [
   Header

@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { ActivityIndicator, StyleSheet } from 'react-native';
-import computeStyle from '../Util/computeStyle';
+import { computeStyle } from '../Util';
 
 const Spinner = ({style = {}, size = 'large', color}) => {
 
