@@ -64,7 +64,7 @@ exports[`Storyshots BusyModal closed 1`] = `
           ellipsizeMode="tail" />
         <ActivityIndicator
           animating={true}
-          color="#124081"
+          color="#999999"
           hidesWhenStopped={true}
           size="large"
           style={
@@ -146,7 +146,7 @@ exports[`Storyshots BusyModal open 1`] = `
           ellipsizeMode="tail" />
         <ActivityIndicator
           animating={true}
-          color="#124081"
+          color="#999999"
           hidesWhenStopped={true}
           size="large"
           style={
@@ -230,7 +230,7 @@ exports[`Storyshots BusyModal open with message 1`] = `
         </Text>
         <ActivityIndicator
           animating={true}
-          color="#124081"
+          color="#999999"
           hidesWhenStopped={true}
           size="large"
           style={
@@ -983,6 +983,38 @@ exports[`Storyshots Container without a header (scrolls) 1`] = `
       </View>
     </View>
   </ScrollView>
+</View>
+`;
+
+exports[`Storyshots ErrorAlert with text (required) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 0,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#DA8176",
+        "borderColor": "#8E2E22",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "color": "#8E2E22",
+        "marginBottom": 10,
+        "marginTop": 10,
+        "padding": 10,
+      }
+    }>
+    I am an error!
+  </Text>
 </View>
 `;
 
@@ -2228,6 +2260,484 @@ exports[`Storyshots Header with title only 1`] = `
     </Text>
   </View>
   <View />
+</View>
+`;
+
+exports[`Storyshots SimpleTextCard with text (required) 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderBottomWidth": 0,
+            "borderColor": "#ddd",
+            "borderRadius": 2,
+            "borderWidth": 1,
+            "elevation": 2,
+            "flexWrap": "wrap",
+            "marginVertical": 5,
+            "padding": 10,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 1.5,
+          }
+        }>
+        <View
+          style={Object {}}>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "#F5FCFF",
+                "flex": 1,
+                "justifyContent": "center",
+                "padding": 0,
+              }
+            }>
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail">
+              I am simple and texty
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with default config 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="#999999"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with defined color 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="red"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with large size 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="#999999"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with small size 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="#999999"
+          hidesWhenStopped={true}
+          size="small"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots SpinnerCard default 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomWidth": 0,
+              "borderColor": "#ddd",
+              "borderRadius": 2,
+              "borderWidth": 1,
+              "elevation": 2,
+              "flexWrap": "wrap",
+              "marginVertical": 5,
+              "padding": 10,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowOpacity": 0.1,
+              "shadowRadius": 1.5,
+            }
+          }>
+          <View
+            style={Object {}}>
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#F5FCFF",
+                  "flex": 1,
+                  "justifyContent": "center",
+                  "padding": 0,
+                }
+              }>
+              <ActivityIndicator
+                animating={true}
+                color="#999999"
+                hidesWhenStopped={true}
+                size="large"
+                style={
+                  Object {
+                    "height": 80,
+                    "margin": 5,
+                    "width": 80,
+                  }
+                } />
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots TextInput default 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": 1,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "position": "relative",
+          }
+        }>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder={undefined}
+          secureTextEntry={false}
+          style={
+            Object {
+              "borderWidth": 0,
+              "color": "#000",
+              "fontSize": 15,
+              "height": 30,
+              "lineHeight": 24,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value="Sample Input" />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots TextInput with placeholder 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": 1,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "position": "relative",
+          }
+        }>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Placeholder"
+          secureTextEntry={false}
+          style={
+            Object {
+              "borderWidth": 0,
+              "color": "#000",
+              "fontSize": 15,
+              "height": 30,
+              "lineHeight": 24,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value="" />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots TextInput with secure input 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#D9D5DC",
+            "borderLeftWidth": 0,
+            "borderRightWidth": 0,
+            "borderTopWidth": 0,
+            "borderWidth": 1,
+            "marginBottom": 5,
+            "marginTop": 5,
+            "position": "relative",
+          }
+        }>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder={undefined}
+          secureTextEntry={true}
+          style={
+            Object {
+              "borderWidth": 0,
+              "color": "#000",
+              "fontSize": 15,
+              "height": 30,
+              "lineHeight": 24,
+              "paddingLeft": 5,
+              "paddingRight": 5,
+            }
+          }
+          underlineColorAndroid="rgba(0,0,0,0)"
+          value="I am secure" />
+      </View>
+    </View>
+  </ScrollView>
 </View>
 `;
 

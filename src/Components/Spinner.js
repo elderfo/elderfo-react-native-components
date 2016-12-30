@@ -1,15 +1,18 @@
 import React, { PropTypes } from 'react';
 import { ActivityIndicator, StyleSheet } from 'react-native';
+import computeStyle from '../Util/computeStyle';
 
+const Spinner = ({style = {}, size = 'large', color}) => {
 
-const Spinner = ({style = {}, size = 'large', color = '#124081'}) => {
-  const styles = StyleSheet.create({
-    spinner: Object.assign({}, {
+  const defaultStyle = {
+    spinner: {
       height: 80,
       width: 80,
       margin: 5
-    }, style)
-  });
+    }
+  };
+
+  const styles = StyleSheet.create(computeStyle(defaultStyle, style));
 
   return (
     <ActivityIndicator
@@ -21,9 +24,8 @@ const Spinner = ({style = {}, size = 'large', color = '#124081'}) => {
 
 Spinner.propTypes = {
   color: PropTypes.string,
-  size: PropTypes.string
+  size: PropTypes.oneOf(['small', 'large']),
+  style: PropTypes.object
 }
-
-
 
 export default Spinner;

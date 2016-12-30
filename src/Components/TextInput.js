@@ -1,10 +1,11 @@
 import React, { PropTypes } from 'react';
-import { View, TextInput, StyleSheet, Platform } from 'react-native';
+import { View, TextInput as TextInputRn, StyleSheet } from 'react-native';
+import Platform from './Platform';
 
-const TextInputRT = ({icon, placeholder, onChangeText, value, secureTextEntry = false}) => {
+const TextInput = ({ placeholder, onChangeText, value, secureTextEntry = false}) => {
   return (
     <View style={styles.inputGroup}>
-      <TextInput
+      <TextInputRn
         style={styles.inputNb}
         placeholder={placeholder}
         value={value}
@@ -15,7 +16,7 @@ const TextInputRT = ({icon, placeholder, onChangeText, value, secureTextEntry = 
   );
 };
 
-TextInputRT.propTypes = {
+TextInput.propTypes = {
   icon: PropTypes.string,
   placeholder: PropTypes.string,
   onChangeText: PropTypes.func.isRequired,
@@ -25,7 +26,7 @@ TextInputRT.propTypes = {
 
 const styles = StyleSheet.create({
   inputNb: {
-    height: (Platform.OS === 'ios') ? 30 : 40 ,
+    height: (Platform.ios) ? 30 : 40 ,
     color: '#000',
     paddingLeft: 5,
     paddingRight: 5,
@@ -46,4 +47,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default TextInputRT;
+export default TextInput;
