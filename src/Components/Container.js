@@ -1,17 +1,12 @@
 import React, { PropTypes } from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import Header from './Header';
+import Platform from './Platform';
+import computeStyle from '../Util/computeStyle';
 
 const headerTypes = [
   Header
 ];
-
-
-const defaultStyles =  {
-  container: { 
-    flex:1
-  }
-};
 
 const getHeader = (children) => {
   if (Array.isArray(children)) {
@@ -20,6 +15,10 @@ const getHeader = (children) => {
     return children;
   }
 };
+
+const hasHeader = children => {
+  return getHeader(children);
+}
 
 const getContent = (children) => {
   if (!children) {
@@ -33,45 +32,45 @@ const getContent = (children) => {
   }
 }
 
-const computeStyle = ({style, centerVertically}) => {
+const generateStyleSheet = ({style, contentStyle, children}) => {
 
-  let defaultStyle = defaultStyles.container;
-
-  defaultStyle = centerVertically
-    ? Object.assign({}, defaultStyle, { justifyContent: 'center' })
-    : defaultStyle
-
-  if (typeof (style) === 'object') {
-    defaultStyle = style
-      ? Object.assign({}, defaultStyle, style)
-      : defaultStyle;
-  }
-
-  return StyleSheet.create({
-    container: defaultStyle,
-    cardContainer: {
+  let defaultStyle = {
+    container: {
+      flex: 1,
+      paddingTop: hasHeader(children) ? 0 : Platform.ios ? 20 : 0
+    },
+    content: {
       padding: 10,
-      flex: centerVertically ? undefined : 1
+      flex: 1
     }
+  };
+
+  const computedStyle = computeStyle(defaultStyle, {
+    container: style,
+    content: contentStyle
   });
+
+  return StyleSheet.create(computedStyle);
 }
 
 const Container = (props) => {
 
-  const styles = computeStyle(props);
+  const styleSheet = generateStyleSheet(props);
   return (
-    <View style={styles.container}>
+    <View style={styleSheet.container}>
       {getHeader(props.children)}
       <ScrollView>
-        <View style={styles.cardContainer}>{getContent(props.children)}</View>
+        <View style={styleSheet.content}>
+          {getContent(props.children)}
+        </View>
       </ScrollView>
     </View>
   );
 };
 
 Container.propTypes = {
-  dark: PropTypes.bool,
-  centerVertically: PropTypes.bool
+  style: PropTypes.object,
+  contentStyle: PropTypes.object,
 }
 
 export default Container;
