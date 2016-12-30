@@ -986,6 +986,38 @@ exports[`Storyshots Container without a header (scrolls) 1`] = `
 </View>
 `;
 
+exports[`Storyshots ErrorAlert with text (required) 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": undefined,
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 0,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "backgroundColor": "#DA8176",
+        "borderColor": "#8E2E22",
+        "borderRadius": 0,
+        "borderWidth": 1,
+        "color": "#8E2E22",
+        "marginBottom": 10,
+        "marginTop": 10,
+        "padding": 10,
+      }
+    }>
+    I am an error!
+  </Text>
+</View>
+`;
+
 exports[`Storyshots Header with a backgroundColor/foregroundColor 1`] = `
 <View
   style={
