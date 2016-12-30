@@ -64,7 +64,7 @@ exports[`Storyshots BusyModal closed 1`] = `
           ellipsizeMode="tail" />
         <ActivityIndicator
           animating={true}
-          color="#124081"
+          color="#999999"
           hidesWhenStopped={true}
           size="large"
           style={
@@ -146,7 +146,7 @@ exports[`Storyshots BusyModal open 1`] = `
           ellipsizeMode="tail" />
         <ActivityIndicator
           animating={true}
-          color="#124081"
+          color="#999999"
           hidesWhenStopped={true}
           size="large"
           style={
@@ -230,7 +230,7 @@ exports[`Storyshots BusyModal open with message 1`] = `
         </Text>
         <ActivityIndicator
           animating={true}
-          color="#124081"
+          color="#999999"
           hidesWhenStopped={true}
           size="large"
           style={
@@ -2320,6 +2320,182 @@ exports[`Storyshots SimpleTextCard with text (required) 1`] = `
             </Text>
           </View>
         </View>
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with default config 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="#999999"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with defined color 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="red"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with large size 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="#999999"
+          hidesWhenStopped={true}
+          size="large"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
+      </View>
+    </View>
+  </ScrollView>
+</View>
+`;
+
+exports[`Storyshots Spinner with small size 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 20,
+    }
+  }>
+  <ScrollView>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "padding": 10,
+        }
+      }>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#F5FCFF",
+            "flex": 1,
+            "justifyContent": "center",
+            "padding": 0,
+          }
+        }>
+        <ActivityIndicator
+          animating={true}
+          color="#999999"
+          hidesWhenStopped={true}
+          size="small"
+          style={
+            Object {
+              "height": 80,
+              "margin": 5,
+              "width": 80,
+            }
+          } />
       </View>
     </View>
   </ScrollView>
