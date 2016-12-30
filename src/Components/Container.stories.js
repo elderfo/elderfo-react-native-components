@@ -5,25 +5,50 @@ import { storiesOf, action, linkTo, } from '@kadira/react-native-storybook';
 import { Container, Header } from '../';
 
 storiesOf('Container', module)
-    .add('without a header (scrolls)', () => (
+    .add('without a header', () => (
         <Container>
+            {shortFillerText}
+        </Container>
+    ))
+    .add('with a header', () => (
+        <Container>
+            <Header title={'Header'} />
+            {shortFillerText}
+        </Container>
+    ))
+    .add('with style and contentStyle', () => (
+        <Container
+            style={{ backgroundColor: 'red', padding: 25, paddingTop: 25 }}
+            contentStyle={{ backgroundColor: 'green' }}>
+            {shortFillerText}
+        </Container>
+    ))
+    .add('without a header and scrolls', () => (
+        <Container scroll={true}>
             {fillerText}
         </Container>
     ))
-    .add('with a header (scrolls)', () => (
-        <Container>
+    .add('with a header and scroll', () => (
+        <Container scroll={true}>
             <Header title={'Header'} />
             {fillerText}
         </Container>
     ))
-    .add('with style and contentStyle', () => (
-        <Container 
+    .add('with style, contentStyle and scroll', () => (
+        <Container
+            scroll={true}
             style={{ backgroundColor: 'red', padding: 25, paddingTop: 25 }}
-            contentStyle={{ backgroundColor: 'green'}}>
+            contentStyle={{ backgroundColor: 'green' }}>
             {fillerText}
         </Container>
     ))
     ;
+
+const shortFillerText = (
+    <Text>
+        Bacon ipsum dolor amet hamburger beef brisket, salami short loin cow chuck beef ribs pork chop kielbasa. Frankfurter burgdoggen venison alcatra jerky. Venison short ribs cupim, beef sausage fatback chicken chuck shank biltong. Rump bacon prosciutto chicken, boudin tail shank beef. Shoulder pastrami kevin meatball frankfurter, short loin sausage t-bone doner spare ribs landjaeger leberkas.
+    </Text>
+);
 
 const fillerText = (
     <View>

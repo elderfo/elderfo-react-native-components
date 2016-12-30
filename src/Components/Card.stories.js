@@ -6,7 +6,7 @@ import {Card, CenterView} from '../';
 
 storiesOf('Card', module)
   .addDecorator(getStory => (
-    <CenterView padding={10}>{getStory()}</CenterView>
+    <CenterView fillParent={true} style={{padding:10}}>{getStory()}</CenterView>
   ))
   .add('with text', () => (
     <Card>

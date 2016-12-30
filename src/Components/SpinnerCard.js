@@ -7,7 +7,7 @@ import CenterView from './CenterView';
 const SpinnerCard = () => {
   return (
     <Card>
-      <CenterView horizontalCenter={true}>
+      <CenterView method='both' fillParent={false}>
         <Spinner />
       </CenterView>
     </Card>

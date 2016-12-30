@@ -2,7 +2,7 @@ import React, { PropTypes } from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import Header from './Header';
 import Platform from './Platform';
-import computeStyle from '../Util/computeStyle';
+import { computeStyle } from '../Util';
 
 const headerTypes = [
   Header
@@ -20,15 +20,23 @@ const hasHeader = children => {
   return getHeader(children);
 }
 
-const getContent = (children) => {
+const renderContent = (children, styleSheet) => {
   if (!children) {
     return;
   }
 
   if (Array.isArray(children)) {
-    return children.filter(item => item && !headerTypes.includes(item.type));
+    return (
+      <View style={styleSheet.content}>
+        {children.filter(item => item && !headerTypes.includes(item.type))}
+      </View>
+    );
   } else if (children && !headerTypes.includes(children.type)) {
-    return children;
+    return (
+      <View style={styleSheet.content}>
+        {children}
+      </View>
+    );
   }
 }
 
@@ -40,8 +48,11 @@ const generateStyleSheet = ({style, contentStyle, children}) => {
       paddingTop: hasHeader(children) ? 0 : Platform.ios ? 20 : 0
     },
     content: {
+      flex: 1,
       padding: 10,
-      flex: 1
+    },
+    scroll: {
+      flex: 1,
     }
   };
 
@@ -53,17 +64,23 @@ const generateStyleSheet = ({style, contentStyle, children}) => {
   return StyleSheet.create(computedStyle);
 }
 
+
 const Container = (props) => {
 
   const styleSheet = generateStyleSheet(props);
+
+  const content = props.scroll
+    ? (
+      <ScrollView style={styleSheet.scroll}>
+        {renderContent(props.children, styleSheet)}
+      </ScrollView>
+    )
+    : renderContent(props.children, styleSheet);
+
   return (
     <View style={styleSheet.container}>
       {getHeader(props.children)}
-      <ScrollView>
-        <View style={styleSheet.content}>
-          {getContent(props.children)}
-        </View>
-      </ScrollView>
+      {content}
     </View>
   );
 };
@@ -71,6 +88,7 @@ const Container = (props) => {
 Container.propTypes = {
   style: PropTypes.object,
   contentStyle: PropTypes.object,
+  scroll: PropTypes.bool,
 }
 
 export default Container;

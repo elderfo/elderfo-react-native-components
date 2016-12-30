@@ -6,7 +6,7 @@ import CenterView from './CenterView';
 const SimpleTextCard = ({text}) => {
   return (
     <Card>
-      <CenterView horizontalCenter={true}>
+      <CenterView method='both' fillParent={false}>
         <Text>{text}</Text>
       </CenterView>
     </Card>

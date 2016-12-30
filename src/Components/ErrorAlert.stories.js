@@ -6,7 +6,7 @@ import { ErrorAlert, CenterView } from '../';
 
 storiesOf('ErrorAlert', module)
     .addDecorator((story)=> (
-        <CenterView>{story()}</CenterView>
+        <CenterView fillParent={true} method='vertical' style={{padding:10}}>{story()}</CenterView>
     ))
     .add('with text (required)', () => (
         <ErrorAlert text={'I am an error!'} />

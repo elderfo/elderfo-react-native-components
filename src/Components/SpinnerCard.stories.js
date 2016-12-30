@@ -7,7 +7,7 @@ import { CenterView, SpinnerCard, Container } from '../';
 storiesOf('SpinnerCard', module)
     .addDecorator(story => (
         <Container>
-            <CenterView horizontalCenter={true}>{story()}</CenterView>
+            <CenterView method='vertical'>{story()}</CenterView>
         </Container>
     ))
     .add('default', () => (

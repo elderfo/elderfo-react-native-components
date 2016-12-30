@@ -1,4 +1,4 @@
-import computeStyle from './computeStyle';
+import { computeStyle } from '../Util';
 
 test('no change when style param is not object', () => {
     const expected = { flex: 1 };
