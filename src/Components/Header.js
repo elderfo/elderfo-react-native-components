@@ -5,6 +5,23 @@ import Platform from './Platform';
 
 
 class Header extends Component {
+
+  static propTypes = {
+    title: PropTypes.string,
+    rightButtonIcon: PropTypes.string,
+    onRightButtonClick: PropTypes.func,
+    leftButtonIcon: PropTypes.string,
+    onLeftButtonClick: PropTypes.func,
+    backgroundColor: PropTypes.string,
+    foregroundColor: PropTypes.string,
+    isSearch: PropTypes.bool,
+    onSearch: PropTypes.func,
+    searchPlaceholder: PropTypes.string,
+    isFixedSearch: PropTypes.bool,
+    searchRightIcon: PropTypes.string,
+    onSearchRightClick: PropTypes.func
+  }
+
   constructor(props) {
     super(props);
 
@@ -167,20 +184,6 @@ class Header extends Component {
   }
 };
 
-Header.propTypes = {
-  title: PropTypes.string,
-  rightButtonIcon: PropTypes.string,
-  onRightButtonClick: PropTypes.func,
-  leftButtonIcon: PropTypes.string,
-  onLeftButtonClick: PropTypes.func,
-  backgroundColor: PropTypes.string,
-  foregroundColor: PropTypes.string,
-  isSearch: PropTypes.bool,
-  onSearch: PropTypes.func,
-  searchPlaceholder: PropTypes.string,
-  isFixedSearch: PropTypes.bool,
-  searchRightIcon: PropTypes.string,
-  onSearchRightClick: PropTypes.func
-};
+
 
 export default Header;
