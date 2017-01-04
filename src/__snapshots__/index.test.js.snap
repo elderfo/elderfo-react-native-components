@@ -868,18 +868,20 @@ exports[`Storyshots Container with a header 1`] = `
           "marginLeft": 72,
         }
       }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "black",
-            "fontSize": 16,
-          }
-        }>
-        Header
-      </Text>
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 16,
+            }
+          }>
+          Header
+        </Text>
+      </View>
     </View>
     <View />
   </View>
@@ -935,18 +937,20 @@ exports[`Storyshots Container with a header and scroll 1`] = `
           "marginLeft": 72,
         }
       }>
-      <Text
-        accessible={true}
-        allowFontScaling={true}
-        ellipsizeMode="tail"
-        style={
-          Object {
-            "color": "black",
-            "fontSize": 16,
-          }
-        }>
-        Header
-      </Text>
+      <View>
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 16,
+            }
+          }>
+          Header
+        </Text>
+      </View>
     </View>
     <View />
   </View>
@@ -1442,18 +1446,20 @@ exports[`Storyshots Header with a backgroundColor/foregroundColor 1`] = `
         "marginLeft": 16,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "silver",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "silver",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View>
     <View
@@ -1537,18 +1543,20 @@ exports[`Storyshots Header with custom search placeholder 1`] = `
         "marginLeft": 72,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View>
     <View
@@ -1682,18 +1690,20 @@ exports[`Storyshots Header with fixed search mode 1`] = `
         "marginLeft": 16,
       }
     }>
-    <TextInput
-      autoFocus={true}
-      onChangeText={[Function]}
-      placeholder="Search"
-      style={
-        Object {
-          "color": "black",
-          "flex": 1,
-          "fontSize": 16,
+    <View>
+      <TextInput
+        autoFocus={true}
+        onChangeText={[Function]}
+        placeholder="Search"
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 16,
+          }
         }
-      }
-      value="" />
+        value="" />
+    </View>
   </View>
   <View />
 </View>
@@ -1777,18 +1787,20 @@ exports[`Storyshots Header with left icon 1`] = `
         "marginLeft": 16,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View />
 </View>
@@ -1872,18 +1884,20 @@ exports[`Storyshots Header with left/right icons 1`] = `
         "marginLeft": 16,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View>
     <View
@@ -2017,18 +2031,20 @@ exports[`Storyshots Header with platform default 1`] = `
         "marginLeft": 16,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View>
     <View
@@ -2162,18 +2178,20 @@ exports[`Storyshots Header with platform default search 1`] = `
         "marginLeft": 16,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View>
     <View
@@ -2257,18 +2275,20 @@ exports[`Storyshots Header with right icon 1`] = `
         "marginLeft": 72,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View>
     <View
@@ -2352,18 +2372,20 @@ exports[`Storyshots Header with search mode 1`] = `
         "marginLeft": 72,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View>
     <View
@@ -2497,18 +2519,20 @@ exports[`Storyshots Header with search right button 1`] = `
         "marginLeft": 16,
       }
     }>
-    <TextInput
-      autoFocus={true}
-      onChangeText={[Function]}
-      placeholder="Search"
-      style={
-        Object {
-          "color": "black",
-          "flex": 1,
-          "fontSize": 16,
+    <View>
+      <TextInput
+        autoFocus={true}
+        onChangeText={[Function]}
+        placeholder="Search"
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 16,
+          }
         }
-      }
-      value="" />
+        value="" />
+    </View>
   </View>
   <View>
     <View
@@ -2592,18 +2616,20 @@ exports[`Storyshots Header with title only 1`] = `
         "marginLeft": 72,
       }
     }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": 16,
+          }
+        }>
+        Title
+      </Text>
+    </View>
   </View>
   <View />
 </View>

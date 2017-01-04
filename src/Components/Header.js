@@ -6,6 +6,8 @@ import Platform from './Platform';
 
 class Header extends Component {
 
+  logger = console;
+
   static propTypes = {
     title: PropTypes.string,
     rightButtonIcon: PropTypes.string,
@@ -35,6 +37,7 @@ class Header extends Component {
     this._getDefaultStyles = this._getDefaultStyles.bind(this);
     this._getForegroundColor = this._getForegroundColor.bind(this);
     this._onSearchChanged = this._onSearchChanged.bind(this);
+    this._renderChildren = this._renderChildren.bind(this);
   }
 
   _setSearchMode(isSearching, searchText) {
@@ -87,6 +90,27 @@ class Header extends Component {
     );
   }
 
+  _renderChildren(styles) {
+    const {title} = this.props;
+    const firstComponent = this.state.isSearching
+      ? this._renderSearchBox(styles)
+      : this._renderTitle(title, styles);
+
+    let newChildren = firstComponent 
+      ? [firstComponent] 
+      : [];
+
+    if (this.children) { 
+      newChildren = newChildren.concat(this.children);
+    }
+    
+    return newChildren.map((el, idx) =>  (
+      <View key={`header-content-${idx}`}>
+        {el}
+      </View>
+    ));
+  }
+
   render() {
     let {
       rightButtonIcon,
@@ -96,7 +120,6 @@ class Header extends Component {
     } = this.props;
 
     const {
-      title,
       backgroundColor,
       foregroundColor,
       isSearch,
@@ -123,7 +146,7 @@ class Header extends Component {
     return <View style={styles.navbar}>
       {this._renderButton(leftButtonIcon, onLeftButtonClick, styles)}
       <View style={styles.titleContainer}>
-        {this.state.isSearching ? this._renderSearchBox(styles) : this._renderTitle(title, styles)}
+        {this._renderChildren(styles)}
       </View>
       {this._renderButton(rightButtonIcon, onRightButtonClick, styles)}
     </View>;
@@ -183,7 +206,5 @@ class Header extends Component {
     };
   }
 };
-
-
 
 export default Header;
