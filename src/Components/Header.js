@@ -3,7 +3,6 @@ import { View, Text, StyleSheet, TouchableOpacity, TextInput } from 'react-nativ
 import Icon from 'react-native-vector-icons/Ionicons'
 import Platform from './Platform';
 
-
 class Header extends Component {
 
   logger = console;
@@ -38,14 +37,37 @@ class Header extends Component {
     this._getForegroundColor = this._getForegroundColor.bind(this);
     this._onSearchChanged = this._onSearchChanged.bind(this);
     this._renderChildren = this._renderChildren.bind(this);
+    this._renderTitle = this._renderTitle.bind(this);
+    this._getChildren = this._getChildren.bind(this);
   }
 
   _setSearchMode(isSearching, searchText) {
     this.setState({ isSearching, searchText });
   }
 
+  _getChildren() {
+    let children = [];
+
+    if (this.props.children) {
+      children = children = Array.isArray(this.props.children)
+        ? this.props.children
+        : [this.props.children];
+    }
+
+    return children;
+  }
+
   _renderTitle(title, styles) {
-    if (title) {
+    const children = this._getChildren();
+    var titleElement = children.find(el => el.type === Text);
+
+    if (titleElement) {
+      if (titleElement.props.style) {
+        return titleElement;
+      } else {
+        return React.cloneElement(titleElement, { style: styles.titleText });
+      }
+    } else if (title) {
       return (<Text style={styles.titleText}>{title}</Text>);
     }
   }
@@ -96,15 +118,15 @@ class Header extends Component {
       ? this._renderSearchBox(styles)
       : this._renderTitle(title, styles);
 
-    let newChildren = firstComponent 
-      ? [firstComponent] 
+    let newChildren = firstComponent
+      ? [firstComponent]
       : [];
 
-    if (this.children) { 
+    if (this.children) {
       newChildren = newChildren.concat(this.children);
     }
-    
-    return newChildren.map((el, idx) =>  (
+
+    return newChildren.map((el, idx) => (
       <View key={`header-content-${idx}`}>
         {el}
       </View>

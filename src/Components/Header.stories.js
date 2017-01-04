@@ -76,4 +76,9 @@ storiesOf('Header', module)
       searchRightIcon={'md-barcode'}
       onSearchRightClick={action('Search Right Click')}
       />
+  ))
+  .add('with no style Text', ()=>(
+    <Header>
+      <Text>Title</Text>
+    </Header>
   ));
