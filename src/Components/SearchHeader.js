@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, TextInput } from 'react-nativ
 import Icon from 'react-native-vector-icons/Ionicons'
 import Platform from './Platform';
 import Header from './Header';
+import merge from 'lodash.merge';
 
 
 class SearchHeader extends Component {
@@ -15,13 +16,13 @@ class SearchHeader extends Component {
     constructor(props) {
         super(props);
 
-
         this.state = {
             searchText: ''
         };
 
         this._getDefaultStyles = this._getDefaultStyles.bind(this);
         this._onSearchChanged = this._onSearchChanged.bind(this);
+        this._getHeaderProps = this._getHeaderProps.bind(this);
     }
 
     _onSearchChanged(searchText) {
@@ -32,11 +33,28 @@ class SearchHeader extends Component {
         }
     }
 
+
+    _getHeaderProps() {
+        let props = merge({}, this.props);
+
+        if (props.onSearch) {
+            delete props.onSearch;
+        }
+
+        if (props.placeholder) {
+            delete props.placeholder;
+        }
+
+        return props;
+    }
+
     render() {
         const placeholder = this.props.placeholder ? this.props.placeholder : 'Search';
         const styles = this._getDefaultStyles();
+        const props = this._getHeaderProps();
+
         return (
-            <Header {...this.props}>
+            <Header {...props}>
                 <TextInput
                     returnKeyType='search'
                     style={styles.searchInput}

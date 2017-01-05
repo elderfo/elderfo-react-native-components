@@ -23,6 +23,30 @@ class Header extends Component {
     onSearchRightClick: PropTypes.func
   }
 
+  _validateProps = ({
+    isSearch,
+    onSearch,
+    searchPlaceholder,
+    isFixedSearch,
+    searchRightIcon,
+    onSearchRightClick,
+    title
+  }) => {
+    if (isSearch
+      || onSearch
+      || searchPlaceholder
+      || isFixedSearch
+      || searchRightIcon
+      || onSearchRightClick
+    ) {
+      this.logger.warn('The `isSearch`, `onSearch`, `searchPlaceholder`, `isFixedSearch`, searchRightIcon` and `onSearchRightIcon` props are deprecated. Please use the SearchHeader component for this functionality');
+    }
+
+    if (title) {
+      this.logger.warn('The `title` property has been deprecated. Please use a Text component for this functionality.');
+    }
+  };
+
   constructor(props) {
     super(props);
 
@@ -30,6 +54,8 @@ class Header extends Component {
       isSearching: props.isFixedSearch,
       searchText: ''
     };
+
+    this._validateProps(props);
 
     this._setSearchMode = this._setSearchMode.bind(this);
     this._renderSearchBox = this._renderSearchBox.bind(this);
@@ -59,12 +85,12 @@ class Header extends Component {
 
   _renderTitle(title, styles) {
     const children = this._getChildArray();
-    
+
     // Look for a Text element first before trying to render the props title
     const titleElement = children.find(el => el.type === Text);
 
     if (titleElement) {
-      if (title) { 
+      if (title) {
         this.logger.warn('A title property was specified along with a Text element as a child, the text element will be used.')
       }
 
@@ -124,12 +150,12 @@ class Header extends Component {
       ? this._renderSearchBox(styles)
       : this._renderTitle(title, styles);
 
-    if (firstComponent) { 
+    if (firstComponent) {
       return firstComponent;
     }
     const children = this._getChildArray();
     if (children) {
-      if (children.length > 1) { 
+      if (children.length > 1) {
         this.logger.warn('Multiple children are not currently support. Only the first child will be rendered.');
       }
       return children[0];
