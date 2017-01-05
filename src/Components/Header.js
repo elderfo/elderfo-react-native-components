@@ -38,14 +38,14 @@ class Header extends Component {
     this._onSearchChanged = this._onSearchChanged.bind(this);
     this._renderChildren = this._renderChildren.bind(this);
     this._renderTitle = this._renderTitle.bind(this);
-    this._getChildren = this._getChildren.bind(this);
+    this._getChildArray = this._getChildArray.bind(this);
   }
 
   _setSearchMode(isSearching, searchText) {
     this.setState({ isSearching, searchText });
   }
 
-  _getChildren() {
+  _getChildArray() {
     let children = [];
 
     if (this.props.children) {
@@ -58,10 +58,16 @@ class Header extends Component {
   }
 
   _renderTitle(title, styles) {
-    const children = this._getChildren();
-    var titleElement = children.find(el => el.type === Text);
+    const children = this._getChildArray();
+    
+    // Look for a Text element first before trying to render the props title
+    const titleElement = children.find(el => el.type === Text);
 
     if (titleElement) {
+      if (title) { 
+        this.logger.warn('A title property was specified along with a Text element as a child, the text element will be used.')
+      }
+
       if (titleElement.props.style) {
         return titleElement;
       } else {
@@ -118,19 +124,16 @@ class Header extends Component {
       ? this._renderSearchBox(styles)
       : this._renderTitle(title, styles);
 
-    let newChildren = firstComponent
-      ? [firstComponent]
-      : [];
-
-    if (this.children) {
-      newChildren = newChildren.concat(this.children);
+    if (firstComponent) { 
+      return firstComponent;
     }
-
-    return newChildren.map((el, idx) => (
-      <View key={`header-content-${idx}`}>
-        {el}
-      </View>
-    ));
+    const children = this._getChildArray();
+    if (children) {
+      if (children.length > 1) { 
+        this.logger.warn('Multiple children are not currently support. Only the first child will be rendered.');
+      }
+      return children[0];
+    }
   }
 
   render() {
@@ -165,13 +168,15 @@ class Header extends Component {
 
     const styles = StyleSheet.create(this._getDefaultStyles((leftButtonIcon && onLeftButtonClick)));
 
-    return <View style={styles.navbar}>
-      {this._renderButton(leftButtonIcon, onLeftButtonClick, styles)}
-      <View style={styles.titleContainer}>
-        {this._renderChildren(styles)}
+    return (
+      <View style={styles.navbar}>
+        {this._renderButton(leftButtonIcon, onLeftButtonClick, styles)}
+        <View style={styles.titleContainer}>
+          {this._renderChildren(styles)}
+        </View>
+        {this._renderButton(rightButtonIcon, onRightButtonClick, styles)}
       </View>
-      {this._renderButton(rightButtonIcon, onRightButtonClick, styles)}
-    </View>;
+    );
   }
 
   _getForegroundColor() {

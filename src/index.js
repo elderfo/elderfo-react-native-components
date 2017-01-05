@@ -11,6 +11,7 @@ import Header from './Components/Header';
 import SpinnerCard from './Components/SpinnerCard';
 import SimpleTextCard from './Components/SimpleTextCard';
 import CenterView from './Components/CenterView';
+import SearchHeader from './Components/SearchHeader';
 
 export {
   H1,
@@ -26,4 +27,5 @@ export {
   SpinnerCard,
   SimpleTextCard,
   CenterView,
+  SearchHeader,
 };
