@@ -20,6 +20,8 @@ More details to be added soon.
 - SpinnerCard - A card containing a centered spinner
 - TextInput - An android like underlined text input
 
+_Note:_ Only the ionicons set of icons from [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons) are currently supported.
+
 ## Installation
 
 Run:
@@ -30,7 +32,7 @@ or
 ```
 $ npm install elderfo-react-native-components --save-dev
 ```
-After installation, linking of react-native-vector-icons:
+After installation, linking of react-native-vector-icons is required:
 ```
 $ react-native link react-native-vector-icons
 ```
