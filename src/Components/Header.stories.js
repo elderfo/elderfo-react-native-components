@@ -6,74 +6,50 @@ import { Header } from '../';
 
 storiesOf('Header', module)
   .add('with platform default', () => (
-    <Header title="Title"
+    <Header
       onLeftButtonClick={action('onLeftButtonClick')}
       leftButtonIcon='md-menu'
       onRightButtonClick={action('onRightButtonClick')}
-      rightButtonIcon='md-add'
-      />
-  ))
-  .add('with platform default search', () => (
-    <Header title="Title"
-      onLeftButtonClick={action('onLeftButtonClick')}
-      leftButtonIcon='md-menu'
-      isSearch={true}
-      />
+      rightButtonIcon='md-add'>
+      <Text>Title</Text>
+    </Header>
   ))
   .add('with title only', () => (
-    <Header title='Title' />
+    <Header>
+      <Text>Title</Text>
+    </Header>
   ))
   .add('with a backgroundColor/foregroundColor', () => (
-    <Header title='Title'
+    <Header
       onLeftButtonClick={action('onLeftButtonClick')}
       leftButtonIcon='md-menu'
       onRightButtonClick={action('onRightButtonClick')}
       rightButtonIcon='md-add'
       backgroundColor='red'
-      foregroundColor='silver' />
+      foregroundColor='silver'>
+      <Text>Title</Text>
+    </Header>
   ))
   .add('with left icon', () => (
-    <Header title='Title'
+    <Header
       onLeftButtonClick={action('onLeftButtonClick')}
-      leftButtonIcon='md-menu' />
+      leftButtonIcon='md-menu'>
+      <Text>Title</Text>
+    </Header>
   ))
   .add('with right icon', () => (
-    <Header title='Title'
+    <Header
       onRightButtonClick={action('onRightButtonClick')}
-      rightButtonIcon='md-add' />
+      rightButtonIcon='md-add'>
+      <Text>Title</Text>
+    </Header>
   ))
   .add('with left/right icons', () => (
-    <Header title='Title'
+    <Header
       onLeftButtonClick={action('onLeftButtonClick')}
       leftButtonIcon='md-menu'
       onRightButtonClick={action('onRightButtonClick')}
-      rightButtonIcon='md-add' />
-  ))
-  .add('with search mode', () => (
-    <Header title='Title'
-      isSearch={true}
-      onSearch={action('SearchChanged')} />
-  ))
-  .add('with fixed search mode', () => (
-    <Header title='Title'
-      isSearch={true}
-      isFixedSearch={true}
-      onLeftButtonClick={action('BackButtonClick')}
-      onSearch={action('SearchChanged')} />
-  ))
-  .add('with custom search placeholder', () => (
-    <Header title='Title'
-      searchPlaceholder='Custom placeholder'
-      isSearch={true}
-      onSearch={action('SearchChanged')} />
-  ))
-  .add('with search right button', () => (
-    <Header title='Title'
-      isSearch={true}
-      isFixedSearch={true}
-      onSearch={action('SearchChanged')}
-      onLeftButtonClick={action('BackButtonClick')}
-      searchRightIcon={'md-barcode'}
-      onSearchRightClick={action('Search Right Click')}
-      />
+      rightButtonIcon='md-add'>
+      <Text>Title</Text>
+    </Header>
   ));

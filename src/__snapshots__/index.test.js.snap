@@ -878,7 +878,7 @@ exports[`Storyshots Container with a header 1`] = `
             "fontSize": 16,
           }
         }>
-        Header
+        Title
       </Text>
     </View>
     <View />
@@ -1509,196 +1509,6 @@ exports[`Storyshots Header with a backgroundColor/foregroundColor 1`] = `
 </View>
 `;
 
-exports[`Storyshots Header with custom search placeholder 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F8F8F8",
-      "elevation": 3,
-      "flexDirection": "row",
-      "height": 64,
-      "paddingTop": 15,
-      "position": "relative",
-      "shadowColor": "#000",
-      "shadowOffset": Object {
-        "height": 2,
-        "width": 0,
-      },
-      "shadowOpacity": 0.1,
-      "shadowRadius": 1.5,
-    }
-  }>
-  <View />
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 72,
-      }
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
-  </View>
-  <View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "height": 48,
-          "marginHorizontal": 4,
-          "opacity": 1,
-          "padding": 12,
-          "width": 48,
-        }
-      }
-      testID={undefined}>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": undefined,
-              "fontSize": 12,
-            },
-            Object {
-              "alignSelf": "center",
-              "color": "black",
-              "fontSize": 24,
-            },
-            Object {
-              "fontFamily": "Ionicons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`Storyshots Header with fixed search mode 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F8F8F8",
-      "elevation": 3,
-      "flexDirection": "row",
-      "height": 64,
-      "paddingTop": 15,
-      "position": "relative",
-      "shadowColor": "#000",
-      "shadowOffset": Object {
-        "height": 2,
-        "width": 0,
-      },
-      "shadowOpacity": 0.1,
-      "shadowRadius": 1.5,
-    }
-  }>
-  <View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "height": 48,
-          "marginHorizontal": 4,
-          "opacity": 1,
-          "padding": 12,
-          "width": 48,
-        }
-      }
-      testID={undefined}>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": undefined,
-              "fontSize": 12,
-            },
-            Object {
-              "alignSelf": "center",
-              "color": "black",
-              "fontSize": 24,
-            },
-            Object {
-              "fontFamily": "Ionicons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 16,
-      }
-    }>
-    <TextInput
-      autoFocus={true}
-      onChangeText={[Function]}
-      placeholder="Search"
-      style={
-        Object {
-          "color": "black",
-          "flex": 1,
-          "fontSize": 16,
-        }
-      }
-      value="" />
-  </View>
-  <View />
-</View>
-`;
-
 exports[`Storyshots Header with left icon 1`] = `
 <View
   style={
@@ -2084,151 +1894,6 @@ exports[`Storyshots Header with platform default 1`] = `
 </View>
 `;
 
-exports[`Storyshots Header with platform default search 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F8F8F8",
-      "elevation": 3,
-      "flexDirection": "row",
-      "height": 64,
-      "paddingTop": 15,
-      "position": "relative",
-      "shadowColor": "#000",
-      "shadowOffset": Object {
-        "height": 2,
-        "width": 0,
-      },
-      "shadowOpacity": 0.1,
-      "shadowRadius": 1.5,
-    }
-  }>
-  <View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "height": 48,
-          "marginHorizontal": 4,
-          "opacity": 1,
-          "padding": 12,
-          "width": 48,
-        }
-      }
-      testID={undefined}>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": undefined,
-              "fontSize": 12,
-            },
-            Object {
-              "alignSelf": "center",
-              "color": "black",
-              "fontSize": 24,
-            },
-            Object {
-              "fontFamily": "Ionicons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 16,
-      }
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
-  </View>
-  <View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "height": 48,
-          "marginHorizontal": 4,
-          "opacity": 1,
-          "padding": 12,
-          "width": 48,
-        }
-      }
-      testID={undefined}>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": undefined,
-              "fontSize": 12,
-            },
-            Object {
-              "alignSelf": "center",
-              "color": "black",
-              "fontSize": 24,
-            },
-            Object {
-              "fontFamily": "Ionicons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
 exports[`Storyshots Header with right icon 1`] = `
 <View
   style={
@@ -2324,246 +1989,6 @@ exports[`Storyshots Header with right icon 1`] = `
 </View>
 `;
 
-exports[`Storyshots Header with search mode 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F8F8F8",
-      "elevation": 3,
-      "flexDirection": "row",
-      "height": 64,
-      "paddingTop": 15,
-      "position": "relative",
-      "shadowColor": "#000",
-      "shadowOffset": Object {
-        "height": 2,
-        "width": 0,
-      },
-      "shadowOpacity": 0.1,
-      "shadowRadius": 1.5,
-    }
-  }>
-  <View />
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 72,
-      }
-    }>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      ellipsizeMode="tail"
-      style={
-        Object {
-          "color": "black",
-          "fontSize": 16,
-        }
-      }>
-      Title
-    </Text>
-  </View>
-  <View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "height": 48,
-          "marginHorizontal": 4,
-          "opacity": 1,
-          "padding": 12,
-          "width": 48,
-        }
-      }
-      testID={undefined}>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": undefined,
-              "fontSize": 12,
-            },
-            Object {
-              "alignSelf": "center",
-              "color": "black",
-              "fontSize": 24,
-            },
-            Object {
-              "fontFamily": "Ionicons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
-exports[`Storyshots Header with search right button 1`] = `
-<View
-  style={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#F8F8F8",
-      "elevation": 3,
-      "flexDirection": "row",
-      "height": 64,
-      "paddingTop": 15,
-      "position": "relative",
-      "shadowColor": "#000",
-      "shadowOffset": Object {
-        "height": 2,
-        "width": 0,
-      },
-      "shadowOpacity": 0.1,
-      "shadowRadius": 1.5,
-    }
-  }>
-  <View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "height": 48,
-          "marginHorizontal": 4,
-          "opacity": 1,
-          "padding": 12,
-          "width": 48,
-        }
-      }
-      testID={undefined}>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": undefined,
-              "fontSize": 12,
-            },
-            Object {
-              "alignSelf": "center",
-              "color": "black",
-              "fontSize": 24,
-            },
-            Object {
-              "fontFamily": "Ionicons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-  <View
-    style={
-      Object {
-        "flex": 1,
-        "marginLeft": 16,
-      }
-    }>
-    <TextInput
-      autoFocus={true}
-      onChangeText={[Function]}
-      placeholder="Search"
-      style={
-        Object {
-          "color": "black",
-          "flex": 1,
-          "fontSize": 16,
-        }
-      }
-      value="" />
-  </View>
-  <View>
-    <View
-      accessibilityComponentType={undefined}
-      accessibilityLabel={undefined}
-      accessibilityTraits={undefined}
-      accessible={true}
-      hitSlop={undefined}
-      onLayout={undefined}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Object {
-          "backgroundColor": "#F8F8F8",
-          "height": 48,
-          "marginHorizontal": 4,
-          "opacity": 1,
-          "padding": 12,
-          "width": 48,
-        }
-      }
-      testID={undefined}>
-      <Text
-        accessible={true}
-        allowFontScaling={false}
-        ellipsizeMode="tail"
-        style={
-          Array [
-            Object {
-              "color": undefined,
-              "fontSize": 12,
-            },
-            Object {
-              "alignSelf": "center",
-              "color": "black",
-              "fontSize": 24,
-            },
-            Object {
-              "fontFamily": "Ionicons",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-            },
-          ]
-        }>
-        
-      </Text>
-    </View>
-  </View>
-</View>
-`;
-
 exports[`Storyshots Header with title only 1`] = `
 <View
   style={
@@ -2606,6 +2031,676 @@ exports[`Storyshots Header with title only 1`] = `
     </Text>
   </View>
   <View />
+</View>
+`;
+
+exports[`Storyshots SearchHeader with a backgroundColor/foregroundColor 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "red",
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "silver",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 16,
+        }
+      }>
+      <TextInput
+        autoFocus={true}
+        onChangeText={[Function]}
+        placeholder="Search"
+        returnKeyType="search"
+        style={
+          Object {
+            "color": "silver",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+        value="" />
+    </View>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "red",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "silver",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots SearchHeader with both buttons 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8F8",
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "black",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 16,
+        }
+      }>
+      <TextInput
+        autoFocus={true}
+        onChangeText={[Function]}
+        placeholder="Search"
+        returnKeyType="search"
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+        value="" />
+    </View>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "black",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots SearchHeader with custom placeholder 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8F8",
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "black",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 16,
+        }
+      }>
+      <TextInput
+        autoFocus={true}
+        onChangeText={[Function]}
+        placeholder="Custom Placeholder"
+        returnKeyType="search"
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+        value="" />
+    </View>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "black",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Storyshots SearchHeader with left button 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8F8",
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "black",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 16,
+        }
+      }>
+      <TextInput
+        autoFocus={true}
+        onChangeText={[Function]}
+        placeholder="Search"
+        returnKeyType="search"
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+        value="" />
+    </View>
+    <View />
+  </View>
+</View>
+`;
+
+exports[`Storyshots SearchHeader with right button 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "paddingTop": 0,
+    }
+  }>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F8F8F8",
+        "elevation": 3,
+        "flexDirection": "row",
+        "height": 64,
+        "paddingTop": 15,
+        "position": "relative",
+        "shadowColor": "#000",
+        "shadowOffset": Object {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 1.5,
+      }
+    }>
+    <View />
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "marginLeft": 72,
+        }
+      }>
+      <TextInput
+        autoFocus={true}
+        onChangeText={[Function]}
+        placeholder="Search"
+        returnKeyType="search"
+        style={
+          Object {
+            "color": "black",
+            "flex": 1,
+            "fontSize": 16,
+          }
+        }
+        value="" />
+    </View>
+    <View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        hitSlop={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "backgroundColor": "#F8F8F8",
+            "height": 48,
+            "marginHorizontal": 4,
+            "opacity": 1,
+            "padding": 12,
+            "width": 48,
+          }
+        }
+        testID={undefined}>
+        <Text
+          accessible={true}
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "color": undefined,
+                "fontSize": 12,
+              },
+              Object {
+                "alignSelf": "center",
+                "color": "black",
+                "fontSize": 24,
+              },
+              Object {
+                "fontFamily": "Ionicons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+            ]
+          }>
+          
+        </Text>
+      </View>
+    </View>
+  </View>
 </View>
 `;
 

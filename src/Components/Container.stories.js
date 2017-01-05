@@ -12,7 +12,9 @@ storiesOf('Container', module)
     ))
     .add('with a header', () => (
         <Container>
-            <Header title={'Header'} />
+            <Header>
+                <Text>Title</Text>
+            </Header>
             {shortFillerText}
         </Container>
     ))
@@ -30,7 +32,9 @@ storiesOf('Container', module)
     ))
     .add('with a header and scroll', () => (
         <Container scroll={true}>
-            <Header title={'Header'} />
+            <Header>
+                <Text>Header</Text>
+            </Header>
             {fillerText}
         </Container>
     ))

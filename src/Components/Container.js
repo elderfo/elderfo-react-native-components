@@ -1,11 +1,13 @@
 import React, { PropTypes } from 'react';
 import { View, StyleSheet, ScrollView } from 'react-native';
 import Header from './Header';
+import SearchHeader from './SearchHeader';
 import Platform from './Platform';
 import { computeStyle } from '../Util';
 
 const headerTypes = [
-  Header
+  Header,
+  SearchHeader
 ];
 
 const getHeader = (children) => {

@@ -3,8 +3,50 @@ import { View, Text, StyleSheet, TouchableOpacity, TextInput } from 'react-nativ
 import Icon from 'react-native-vector-icons/Ionicons'
 import Platform from './Platform';
 
-
 class Header extends Component {
+
+  logger = console;
+
+  static propTypes = {
+    title: PropTypes.string,
+    rightButtonIcon: PropTypes.string,
+    onRightButtonClick: PropTypes.func,
+    leftButtonIcon: PropTypes.string,
+    onLeftButtonClick: PropTypes.func,
+    backgroundColor: PropTypes.string,
+    foregroundColor: PropTypes.string,
+    isSearch: PropTypes.bool,
+    onSearch: PropTypes.func,
+    searchPlaceholder: PropTypes.string,
+    isFixedSearch: PropTypes.bool,
+    searchRightIcon: PropTypes.string,
+    onSearchRightClick: PropTypes.func
+  }
+
+  _validateProps = ({
+    isSearch,
+    onSearch,
+    searchPlaceholder,
+    isFixedSearch,
+    searchRightIcon,
+    onSearchRightClick,
+    title
+  }) => {
+    if (isSearch
+      || onSearch
+      || searchPlaceholder
+      || isFixedSearch
+      || searchRightIcon
+      || onSearchRightClick
+    ) {
+      this.logger.warn('The `isSearch`, `onSearch`, `searchPlaceholder`, `isFixedSearch`, searchRightIcon` and `onSearchRightIcon` props are deprecated. Please use the SearchHeader component for this functionality');
+    }
+
+    if (title) {
+      this.logger.warn('The `title` property has been deprecated. Please use a Text component for this functionality.');
+    }
+  };
+
   constructor(props) {
     super(props);
 
@@ -13,19 +55,51 @@ class Header extends Component {
       searchText: ''
     };
 
+    this._validateProps(props);
+
     this._setSearchMode = this._setSearchMode.bind(this);
     this._renderSearchBox = this._renderSearchBox.bind(this);
     this._getDefaultStyles = this._getDefaultStyles.bind(this);
     this._getForegroundColor = this._getForegroundColor.bind(this);
     this._onSearchChanged = this._onSearchChanged.bind(this);
+    this._renderChildren = this._renderChildren.bind(this);
+    this._renderTitle = this._renderTitle.bind(this);
+    this._getChildArray = this._getChildArray.bind(this);
   }
 
   _setSearchMode(isSearching, searchText) {
     this.setState({ isSearching, searchText });
   }
 
+  _getChildArray() {
+    let children = [];
+
+    if (this.props.children) {
+      children = children = Array.isArray(this.props.children)
+        ? this.props.children
+        : [this.props.children];
+    }
+
+    return children;
+  }
+
   _renderTitle(title, styles) {
-    if (title) {
+    const children = this._getChildArray();
+
+    // Look for a Text element first before trying to render the props title
+    const titleElement = children.find(el => el.type === Text);
+
+    if (titleElement) {
+      if (title) {
+        this.logger.warn('A title property was specified along with a Text element as a child, the text element will be used.')
+      }
+
+      if (titleElement.props.style) {
+        return titleElement;
+      } else {
+        return React.cloneElement(titleElement, { style: styles.titleText });
+      }
+    } else if (title) {
       return (<Text style={styles.titleText}>{title}</Text>);
     }
   }
@@ -70,6 +144,24 @@ class Header extends Component {
     );
   }
 
+  _renderChildren(styles) {
+    const {title} = this.props;
+    const firstComponent = this.state.isSearching
+      ? this._renderSearchBox(styles)
+      : this._renderTitle(title, styles);
+
+    if (firstComponent) {
+      return firstComponent;
+    }
+    const children = this._getChildArray();
+    if (children) {
+      if (children.length > 1) {
+        this.logger.warn('Multiple children are not currently support. Only the first child will be rendered.');
+      }
+      return children[0];
+    }
+  }
+
   render() {
     let {
       rightButtonIcon,
@@ -79,7 +171,6 @@ class Header extends Component {
     } = this.props;
 
     const {
-      title,
       backgroundColor,
       foregroundColor,
       isSearch,
@@ -103,13 +194,15 @@ class Header extends Component {
 
     const styles = StyleSheet.create(this._getDefaultStyles((leftButtonIcon && onLeftButtonClick)));
 
-    return <View style={styles.navbar}>
-      {this._renderButton(leftButtonIcon, onLeftButtonClick, styles)}
-      <View style={styles.titleContainer}>
-        {this.state.isSearching ? this._renderSearchBox(styles) : this._renderTitle(title, styles)}
+    return (
+      <View style={styles.navbar}>
+        {this._renderButton(leftButtonIcon, onLeftButtonClick, styles)}
+        <View style={styles.titleContainer}>
+          {this._renderChildren(styles)}
+        </View>
+        {this._renderButton(rightButtonIcon, onRightButtonClick, styles)}
       </View>
-      {this._renderButton(rightButtonIcon, onRightButtonClick, styles)}
-    </View>;
+    );
   }
 
   _getForegroundColor() {
@@ -165,22 +258,6 @@ class Header extends Component {
       }
     };
   }
-};
-
-Header.propTypes = {
-  title: PropTypes.string,
-  rightButtonIcon: PropTypes.string,
-  onRightButtonClick: PropTypes.func,
-  leftButtonIcon: PropTypes.string,
-  onLeftButtonClick: PropTypes.func,
-  backgroundColor: PropTypes.string,
-  foregroundColor: PropTypes.string,
-  isSearch: PropTypes.bool,
-  onSearch: PropTypes.func,
-  searchPlaceholder: PropTypes.string,
-  isFixedSearch: PropTypes.bool,
-  searchRightIcon: PropTypes.string,
-  onSearchRightClick: PropTypes.func
 };
 
 export default Header;
