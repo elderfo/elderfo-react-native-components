@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/Util/index.js"],"names":["computeStyle"],"mappings":"wFAAA,4C;;;AAGIA,Y","file":"index.js","sourcesContent":["import computeStyle from './computeStyle';\n\nexport {\n    computeStyle\n};"]}
