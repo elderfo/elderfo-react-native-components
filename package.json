@@ -1,7 +1,7 @@
 {
   "name": "elderfo-react-native-components",
   "version": "0.0.0-development",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/elderfo/elderfo-react-native-components.git"
@@ -16,24 +16,28 @@
     "test:watch": "jest --watch",
     "storybook": "storybook start -p 7007",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "build": "yarn compile",
+    "compile": "rm -rf dist/* && babel ./src/ --out-dir dist --ignore node_modules,dist,*.test.js,*.stories.js --source-maps"
   },
   "devDependencies": {
     "@kadira/react-native-storybook": "^2.0.0",
+    "babel-cli": "^6.24.1",
     "babel-jest": "18.0.0",
     "babel-preset-react-native": "1.9.1",
     "commitizen": "^2.9.3",
     "cz-conventional-changelog": "^1.2.0",
-    "jest": "18.1.0",
-    "react-native-vector-icons": "^3.0.0",
+    "ghooks": "^2.0.0",
+    "jest": "^20.0.1",
+    "jest-react-native": "^18.0.0",
     "react-test-renderer": "15.4.1",
     "semantic-release": "^6.3.2",
-    "storyshots": "^3.1.1",
-    "ghooks": "^2.0.0"
+    "storyshots": "^3.1.1"
   },
   "peerDependencies": {
     "react": ">=15.4.0",
-    "react-native": ">=0.38.0"
+    "react-native": ">=0.38.0",
+    "react-native-vector-icons": ">=3.0.0"
   },
   "jest": {
     "preset": "react-native"
@@ -41,7 +45,8 @@
   "dependencies": {
     "lodash.merge": "^4.6.0",
     "react": "^15.4.1",
-    "react-native": "^0.39.2"
+    "react-native": "^0.39.2",
+    "react-native-vector-icons": "^3.0.0"
   },
   "config": {
     "commitizen": {
