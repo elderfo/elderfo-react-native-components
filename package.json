@@ -18,7 +18,9 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "commit": "git-cz",
     "build": "yarn compile",
-    "compile": "rm -rf dist/* && babel ./src/ --out-dir dist --ignore node_modules,dist,*.test.js,*.stories.js --source-maps"
+    "compile": "rm -rf dist/* && babel ./src/ --out-dir dist --ignore node_modules,dist,*.test.js,*.stories.js --source-maps",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@kadira/react-native-storybook": "^2.0.0",
@@ -46,7 +48,8 @@
     "lodash.merge": "^4.6.0",
     "react": "^15.4.1",
     "react-native": "^0.39.2",
-    "react-native-vector-icons": "^3.0.0"
+    "react-native-vector-icons": "^3.0.0",
+    "snyk": "^1.41.1"
   },
   "config": {
     "commitizen": {
@@ -55,5 +58,6 @@
     "ghooks": {
       "pre-commit": "yarn run test"
     }
-  }
+  },
+  "snyk": true
 }
