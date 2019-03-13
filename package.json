@@ -47,7 +47,7 @@
   "dependencies": {
     "lodash.merge": "^4.6.0",
     "react": "^15.4.1",
-    "react-native": "^0.39.2",
+    "react-native": "^0.59.0",
     "react-native-vector-icons": "^3.0.0",
     "snyk": "^1.30.1"
   },
